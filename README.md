@@ -10,6 +10,7 @@ The main code on [`exchange.py`](exchange/exchange.py) and theme config on [`rxc
   - Reflex framework [https://reflex.dev/](https://reflex.dev). Write in python, compile down to React frontend and FastAPI backend app
   - Currency exchange rate [https://frankfurter.dev/](https://frankfurter.dev) 
   - Geolocation detection [https://ip-api.com/](https://ip-api.com)
+  - No Database
 
 
 
