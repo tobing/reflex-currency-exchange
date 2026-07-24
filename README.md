@@ -7,7 +7,7 @@ The main code on [`exchange.py`](exchange/exchange.py) and theme config on [`rxc
 # **DEMO** [Click here](https://currency.tobingbox.top/)
 
 # Stack
-  - Pure Python framework [https://reflex.dev/](https://reflex.dev/). Write in python compile down to a React frontend app and a FastAPI backend app
+  - Reflex framework [https://reflex.dev/](https://reflex.dev/). Write in python compile down to a React frontend app and a FastAPI backend app
   - Currency exchange rate [https://frankfurter.dev/](https://frankfurter.dev/) 
   - Geolocation detection [https://ip-api.com/](https://ip-api.com/)
 
