@@ -1,4 +1,4 @@
-# Currency Exchange Rate
+# Reflex Currency Exchange Rate
 
 A simple full-stack currency exchange application built with Reflex as a hands-on project to learn the framework. <br> 
 The project focuses on web application development using pure Python. <br>
