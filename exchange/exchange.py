@@ -104,7 +104,7 @@ def index() -> rx.Component:
         ),   
         rx.text(f"Based on free api frankfurter.dev and ip-api.com with req/s limitations", font_size="12px"),             
         on_mount=State.fetch_latest_data,
-        width="50%",     
+        width=["100%", "100%", "50%"], # Mobile, Tablet, Desktop
         padding="10px",
     ) 
 
