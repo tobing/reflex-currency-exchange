@@ -67,6 +67,7 @@ class State(rx.State):
 #====================================Frontend=============================================
 def index() -> rx.Component:
     return rx.vstack(
+        rx.theme_panel(default_open=True),
         rx.text(State.mode, font_size="18px", font_weight="bold", margin_bottom="10px"),        
         rx.hstack(
             rx.button("Latest", rx.icon("calendar_search", size=15), on_click=[State.fetch_latest_data, rx.toast.info("Get latest currency rates", duration=5000, position="top-right")], width="120px", cursor="pointer", variant="classic"),
